@@ -7,7 +7,7 @@ export default function Education() {
       institution: "Rise Krishna Sai Prakasam Group of Institutions",
       degree: "Bachelor of Technology in Computer Science Engineering",
       duration: "2022 - 2026",
-      score: "7.9/10 CGPA",
+      score: "7.9/10",
     },
     {
       institution: "Viswabharathi Junior College",
