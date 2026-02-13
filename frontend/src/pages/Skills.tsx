@@ -8,10 +8,12 @@ import {
   FaCss3Alt,
   FaJs,
   FaPython,
-  FaDatabase,
   FaLaptopCode,
+  FaLock,
 } from "react-icons/fa";
 import { FaBolt, FaEnvelopeOpenText,FaCloudArrowUp } from "react-icons/fa6";
+import {  FiServer } from "react-icons/fi";
+
 
 import {
   SiTypescript,
@@ -42,9 +44,8 @@ export default function Skills() {
       skills: [
         { name: "Node.js", icon: <FaNodeJs /> },
         { name: "Express.js", icon: <SiExpress /> },
-        { name: "RESTful APIs", icon: <FaDatabase /> },
-        { name: "JWT Authentication", icon: <FaDatabase /> },
-        { name: "Bcrypt", icon: <FaDatabase /> },
+        { name: "RESTful APIs", icon: <FiServer/> },
+        { name: "Bcrypt & JWT Authentication", icon: <FaLock/> },
       ],
     },
     {
@@ -52,8 +53,7 @@ export default function Skills() {
       skills: [
         { name: "MongoDB", icon: <SiMongodb /> },
         { name: "MySQL", icon: <SiMysql /> },
-        { name: "Multer", icon: <FaDatabase /> },
-        { name: "Cloudinary", icon: <FaCloudArrowUp/> },
+        { name: "Multer & Cloudinary", icon: <FaCloudArrowUp/> },
       ],
     },
     {
