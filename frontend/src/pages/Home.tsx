@@ -55,7 +55,7 @@ export default function Home() {
                 </a>
 
                 <a
-                  href="https://drive.google.com/file/d/1wqLC4a0259MeWiKGDLuW5DPGnhvZBJ7d/view?usp=drivesdk"
+                  href="https://drive.google.com/file/d/1_gT-uwi0ossFGHL7LYkp8oIMw_GGLV81/view?usp=drivesdk~"
                   target="_blank"
                   rel="noreferrer"
                  className="flex items-center gap-2 bg-white/5 border border-white/10 px-4  rounded-lg hover:border-emerald-400 transition"
